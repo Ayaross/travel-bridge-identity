@@ -9,7 +9,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/image")
-@CrossOrigin(origins = "*") // Autorise toutes les origines (Angular inclus)
+@CrossOrigin(origins = "*")
 public class ImageController {
 
     private final ImageService imageService;

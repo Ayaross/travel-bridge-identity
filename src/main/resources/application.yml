@@ -14,15 +14,12 @@ spring:
 server:
   port: 9696
 
-idanalyzer:
-  api-key: VJIADerFDD8jseJ61Pgk9tY2vCTzbjQC
-
 
 # API Configuration
 api:
   idanalyzer:
     url: https://api2.idanalyzer.com/scan
-    key: VJIADerFDD8jseJ61Pgk9tY2vCTzbjQC
+    key: osw1T9HhznXm3GB8goNjMAe6KfP0sMYY
 
 
 
