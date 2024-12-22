@@ -15,7 +15,7 @@ RUN mvn clean package
 FROM eclipse-temurin:17-jdk-alpine
 
 # Créer un volume
-VOLUME /tmp
+#VOLUME /tmp
 
 # Copier le JAR depuis l'étape de construction
 COPY --from=builder /usr/src/app/target/*.jar app.jar
