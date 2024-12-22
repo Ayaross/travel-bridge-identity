@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: travel-bridge
+  jpa:
+    database: POSTGRESQL
+    hibernate.ddl-auto: update
+    show-sql: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/travel-bridge
+    username: postgres
+    password: postgres
+
+server:
+  port: 9696
+
+idanalyzer:
+  api-key: VJIADerFDD8jseJ61Pgk9tY2vCTzbjQC
+
+
+# API Configuration
+api:
+  idanalyzer:
+    url: https://api2.idanalyzer.com/scan
+    key: VJIADerFDD8jseJ61Pgk9tY2vCTzbjQC
+
+
+
+
